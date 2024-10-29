@@ -6,13 +6,15 @@ authors = ["Jignesh Kumar Panchal <jignesh.kumar.panchal@ibm.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.13"
+python = "^3.12"
 requests = "^2.32.3"
 python-dotenv = "^1.0.1"
 beautifulsoup4 = "^4.12.3"
 ipython = "^8.29.0"
 openai = "^1.52.2"
 rich = "^13.9.3"
+google-generativeai = "^0.8.3"
+anthropic = "^0.37.1"
 
 
 [build-system]

@@ -44,6 +44,8 @@ To set up this project on your local machine, follow these steps:
 
    ```bash
    OPENAI_API_KEY=""
+   ANTHROPIC_API_KEY=""
+   GOOGLE_API_KEY=""
    ```
 
 ### Usage
