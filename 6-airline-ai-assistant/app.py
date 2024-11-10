@@ -133,7 +133,7 @@ with gr.Blocks() as ui:
         history[-1][1] = bot_message
         return history, image
 
-    msg.submit(user, [msg, chatbot], [msg, chatbot], queue=False).then(
+    msg.submit(fn=user, input=[msg, chatbot], outputs=[msg, chatbot], queue=False).then(
         bot, chatbot, [chatbot, image_output]
     )
     clear.click(lambda: None, None, chatbot, queue=False)
